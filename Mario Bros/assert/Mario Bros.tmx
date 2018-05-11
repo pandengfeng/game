@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" infinite="0" nextobjectid="81">
+ <tileset firstgid="1" source="NES - Super Mario Bros - Tileset.tsx"/>
+ <layer name="background" width="240" height="13" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEKwjAYxfGvbrqpU6+gq9VL6XGs0PYcKqgn6+KjU2itKFTzQf+QHwkJgZfhDaknZjWA0SqklMpBFgDfucldHg6yABjOUXI5OcgCoCu1/rOzXOTqICcAAAAAAJ9o/3M1mr1wjp0RwH9ME7NZEj8HMHaLnh6+6+hK+2v6C/xcpp5tA7ugd3OtN7J80cWwo1nr7l7zgf4Cbqmeg4v9JsCLJxeM2yw=
+  </data>
+ </layer>
+ <layer name="graphics" width="240" height="13" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7DOv+mp6FFIIAkAAAAAAAAAAAAAwIYrB3oehnAAGQ==
+  </data>
+ </layer>
+ <objectgroup name="coins" locked="1">
+  <object id="65" x="175.5" y="128" width="16" height="15"/>
+  <object id="66" x="257" y="128" width="13.5" height="14.5"/>
+  <object id="67" x="288.5" y="128.5" width="14.5" height="15"/>
+  <object id="68" x="273" y="66.5" width="14" height="12.5"/>
+ </objectgroup>
+ <objectgroup name="ground" locked="1">
+  <object id="69" x="0.5" y="192" width="719.5" height="16"/>
+ </objectgroup>
+ <objectgroup name="pipes" locked="1">
+  <object id="73" x="384.5" y="160" width="31.5" height="31.5"/>
+  <object id="74" x="495.5" y="144" width="31.5" height="47.5"/>
+  <object id="75" x="528.5" y="256" width="0.5"/>
+ </objectgroup>
+ <objectgroup name="bricks" locked="1">
+  <object id="70" x="239.5" y="129" width="16.5" height="14"/>
+  <object id="71" x="272.5" y="129" width="15.5" height="14.5"/>
+  <object id="72" x="303.5" y="129.5" width="16" height="14"/>
+ </objectgroup>
+</map>
